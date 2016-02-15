@@ -1,4 +1,6 @@
-# breeze-dag [![Build Status](https://secure.travis-ci.org/qualiancy/breeze-dag.png?branch=master)](https://travis-ci.org/qualiancy/breeze-dag)
+# async-dag [![Build Status](https://secure.travis-ci.org/Filirom1/async-dag.png?branch=master)](https://travis-ci.org/Filirom1/async-dag)
+
+A fork of <https://github.com/qualiancy/breeze-dag> that works with async.
 
 > Async flow control for directed-acyclic-graph iteration.
 
@@ -6,15 +8,9 @@
 
 ### Node.js
 
-`breeze-dag` is available on [npm](http://npmjs.org).
+`async-dag` is available on [npm](http://npmjs.org).
 
-    $ npm install breeze-dag
-
-### Component
-
-`breeze-dag` is available as a [component](https://github.com/component/component).
-
-    $ component install qualiancy/breeze-dag
+    $ npm install async-dag
 
 ## Usage
 
@@ -76,7 +72,7 @@ but items that have already started will run to completion.
 
 (The MIT License)
 
-Copyright (c) 2012 Jake Luer <jake@qualiancy.com> (http://qualiancy.com)
+Copyright (c) 2016 Filirom1 <Filirom1@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
